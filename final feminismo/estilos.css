@@ -1,0 +1,259 @@
+body{
+	background-image: url(uwu.png);
+	background-size: cover;
+}
+.iui{
+	display: block;
+	position: absolute;
+	top: -15px;
+	left: 500px;
+	width: 119px;
+	height: 190px;
+	background-image: url(mano5.png);
+}
+.iui:hover {
+	display: block;
+	position: absolute;
+	left: 490px;
+	background-image: url(mano6.png);
+	transform: rotate(2160deg) scaleX(1) scaleY(1);
+	transition: transform 6s;
+	z-index: 3;
+}
+.ioi{
+	display: block;
+	position: absolute;
+	top: -20px;
+	left: 800px;
+	width: 119px;
+	height: 190px;
+	background-image: url(mano6.png);
+}
+.ioi:hover {
+	display: block;
+	position: absolute;
+	left: 790px;
+	background-image: url(mano5.png);
+	transform: rotate(2160deg) scaleX(1) scaleY(1);
+	transition: transform 6s;
+}
+.xd{
+	display: block;
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	width: 360px;
+	height: 250px;
+	background-image: url(mano1.png);
+}
+.-w-{
+	display: block;
+	position: absolute;
+	top: 50px;
+	left: 900px;
+	width: 360px;
+	height: 250px;
+	background-image: url(mano2.png);
+}
+.v{
+	display: block;
+	position: absolute;
+	top: 300px;
+	left: 100px;
+	width: 360px;
+	height: 250px;
+	background-image: url(mano3.png);
+}
+.ono{
+	display: block;
+	position: absolute;
+	top: 300px;
+	left: 900px;
+	width: 360px;
+	height: 250px;
+	background-image: url(mano4.png);
+}
+.owo{
+	position: absolute;
+	left:590px;
+	font-family: Cooper Black;
+	animation-name:juli;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;  
+}
+@keyframes juli{ 
+35%{color:#F7819F;}
+70%{color:#FE2EC8;}
+100%{color:#9A2EFE;}
+}
+.uwu{
+	position: absolute;
+	left:630px;
+	font-family: Cooper Black;
+	animation-name:juli1;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;  
+}
+@keyframes juli1{ 
+35%{color:#9A2EFE;}
+70%{color:#F7819F;}
+100%{color:#FE2EC8;}
+}
+.tt{
+	display: none;
+	position: absolute;
+	top: 105px;
+	left: 210px;
+	background-image: url(cuadro1.png);
+	width: 500px;
+	height: 278px;
+	border: double;
+}
+.xd:active .tt{
+	display: block;
+}
+.uu{
+	display: none;
+	position: absolute;
+	top: 105px;
+	left: -370px;
+	background-image: url(cuadro2.png);
+	width: 500px;
+	height: 278px;
+	border: double;
+}
+.-w-:active .uu{
+	display: block;
+}
+.yy{
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 210px;
+	background-image: url(cuadro3.png);
+	width: 500px;
+	height: 278px;
+	border: double;
+}
+.v:active .yy{
+	display: block;
+}
+.rr{
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: -370px;
+	background-image: url(cuadro4.png);
+	width: 500px;
+	height: 278px;
+	border: double;
+}
+.ono:active .rr{
+	display: block;
+}
+.pregunta{
+	display: block;
+	position: absolute;
+	top:800px; 
+	left: 60px;
+	width: 100px;
+	height: 100px;
+	background-image: url(pregu.png);
+}
+.we{
+	display: none;
+	position: absolute;
+	top: -100px;
+	left:200px;
+	background: #D0A9F5;
+	font-family: Castellar;
+	border-radius: 100px;
+	opacity: 0.8;
+}
+.pregunta:active .we{
+	display: block;
+}
+.t1{
+	display: none;
+	position: absolute;
+	top: -250px;
+	left: 10px;
+	width: 200px;
+	height: 200px;
+	background: #F5A9F2;
+	font-family: Bradley Hand ITC;
+	border-radius: 500px;
+}
+.tg{
+	position: absolute;
+	top: 20px;
+}
+.pregunta:active .t1{
+	display: block;
+}
+.t2{
+	display: none;
+	position: absolute;
+	top: -300px;
+	left: 250px;
+	width: 200px;
+	height: 200px;
+	background: #F5A9F2;
+	font-family: Bradley Hand ITC;
+	border-radius: 500px;
+}
+.th{
+	position: absolute;
+	top: 30px;
+}
+.pregunta:active .t2{
+	display: block;
+}
+.t3{
+	display: none;
+	position: absolute;
+	top: -100px;
+	left: 360px;
+	width: 200px;
+	height: 200px;
+	background: #F5A9F2;
+	font-family: Bradley Hand ITC;
+	border-radius: 500px;
+}
+.tj{
+	position: absolute;
+	top: 40px;
+}
+.pregunta:active .t3{
+	display: block;
+}
+.t4{
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 60px;
+	width: 200px;
+	height: 200px;
+	background: #F5A9F2;
+	font-family: Bradley Hand ITC;
+	border-radius: 500px;
+}
+.tk{
+	position: absolute;
+	top: 40px;
+}
+.pregunta:active .t4{
+	display: block;
+}
+.img{
+	display: none;
+	position: absolute;
+	top: 70px;
+	left: 270px;
+	width: 152px;
+	height: 150px;
+	background-image: url(chica.png);
+}
+.pregunta:active .img{
+	display: block;
+}
